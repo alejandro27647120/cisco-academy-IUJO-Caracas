@@ -26,7 +26,7 @@
      width: 50px;
      height: 50px;
      background: #fff;
-     border:2px solid var(--red);
+     border:2px solid var(--blueCeleste);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -35,7 +35,7 @@
      transition: 0.5s;
  }
  .go-top:hover{
-     background: var(--red);
+     background: var(--blueCeleste);
      color:#fff;
      border: 2px solid var(--white);
  }
@@ -408,6 +408,7 @@
     .AbautUs .box-AbautUs .card-AbautUs{width: 100%;}
     .AbautUs .box-AbautUs .card-AbautUs .AbautUs-text h4{font-size: 25px;}
     .AbautUs .box-AbautUs .card-AbautUs .AbautUs-text p{font-size: 17px; line-height: 35px;}
+    .AbautUs-info{display: block; position: relative; left: 100px;}
 }
 
 /**Skills**/
