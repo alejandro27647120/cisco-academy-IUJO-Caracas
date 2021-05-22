@@ -313,6 +313,7 @@
 }
 .AbautUs-info-contend{
     width: 50%;
+    height: auto;
     background: var(--blue);
     padding: 10px;
 }
@@ -331,6 +332,11 @@
     transition: 0.5s;
     position: relative;
     left: 300px;
+    z-index: 1;
+}
+.AbautUs-info .AbautUs-info-contend:hover button{
+    background: var(--White);
+    color: var(--blueCeleste);
 }
 .AbautUs .AbautUs-title{
     width: 50%;
@@ -424,7 +430,7 @@
     margin:auto;
     top: 100px;
     text-align: center;
-    border: solid var(--White);
+    border: solid 5px var(--White);
     padding: 20px;
 }
 
@@ -486,11 +492,21 @@
     line-height: 40px;
     color: var(--black);
 }
+.Skills .Skills-title:hover{
+    border: 5px solid var(--blueCeleste);
+}
+.Skills .Skills-title:hover h2{
+    color:var(--blueCeleste);
+}
+.Skills .Skills-title:hover hr{
+    background:var(--blueCeleste);
+}
+
 .Skills .box-Skills .card-Skills .Skills-text:hover{
-    border: 2px solid var(--White);
+    border: 2px solid var(--blueCeleste);
 }
 .Skills .box-Skills .card-Skills .Skills-text:hover h4{
-    color: var(--white);
+    color: var(--blueCeleste);
 }
 
 @media only screen and (max-width:890px){
