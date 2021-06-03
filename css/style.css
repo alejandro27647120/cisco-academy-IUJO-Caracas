@@ -434,7 +434,7 @@ body{
 .Skills{
     /*width: 100%;*/
     /*margin-top: 120px;*/
-    background: #005073;
+    background: #066892;
     padding-top: 100px;
 }
 .Skills .Skills-title{
@@ -505,20 +505,20 @@ body{
     color: var(--black);
 }
 .Skills .Skills-title:hover{
-    border: 5px solid var(--blueCeleste);
+    border: 5px solid var(--blue);
 }
 .Skills .Skills-title:hover h2{
-    color:var(--blueCeleste);
+    color:var(--blue);
 }
 .Skills .Skills-title:hover hr{
-    background:var(--blueCeleste);
+    background:var(--blue);
 }
 
 .Skills .box-Skills .card-Skills .Skills-text:hover{
-    border: 2px solid var(--blueCeleste);
+    border: 2px solid var(--blue);
 }
 .Skills .box-Skills .card-Skills .Skills-text:hover h4{
-    color: var(--blueCeleste);
+    color: var(--blue);
 }
 
 @media only screen and (max-width:890px){
