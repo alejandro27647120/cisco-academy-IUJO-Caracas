@@ -71,7 +71,7 @@ body{
 .menu .logo-box{margin-left: 20px;}
 .menu .logo-box a img{
     text-decoration: none;
-    width: 180px;
+    width: 190px;
     /*font-size: var(--title);*/
     font-weight: 400;
     color:var(--White);
@@ -595,12 +595,7 @@ body{
     width: 80%;
     margin:auto;
 }
-.
-.footer .formulario-content #formulario .send{
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .footer .footer-text{
     position:absolute;
