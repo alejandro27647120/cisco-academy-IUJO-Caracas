@@ -156,12 +156,12 @@ body{
  /** Navegation Menu **/
  .img-header{
     position: relative;
-    /*width: 100%;*/
-    height: 100vh;
-    background:url(../image/iujo-sede-caracas3.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    /*width: 100%;
+    height: 100vh;*/
+    background:url(../image/iujo-sede-caracas3.webp) no-repeat center center ;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .img-header .welcome{
@@ -221,7 +221,7 @@ body{
     font-size: 20px;
     color: #fff;
 }
-.img-header .welcome > button{
+#abajo{
     width: 170px;
     height: 40px;
     background: var(--White);
@@ -249,6 +249,12 @@ body{
     .img-header .welcome hr{width: 100px;}
     .img-header .welcome p{font-size: 17px;}
     .img-header .welcome > button{width: 100px; font-size: 17px;}
+    .img-header .welcome .welcome-title h3{
+        font-size: 50px;
+        font-weight: normal;
+        color: var(--White);
+        margin-bottom: 10px;
+    }
 }
 .acerca-de{
     width: 100%;
@@ -322,10 +328,10 @@ body{
 
 /** Abaut-Us **/
 
-.AbautUs{
+/*.AbautUs{
     width: 100%;
     margin-top: 120px;
-}
+}*/
 .AbautUs-info{
     background: var(--blue);
     color: #fff;
@@ -348,7 +354,7 @@ body{
     
 }*/
 
-.AbautUs-info .AbautUs-info-contend> button {
+#read-more {
     width: 150px;
     height: 40px;
     float: right;
@@ -359,7 +365,7 @@ body{
     font-size: 18px;
     color: var(--White);
     text-align: center;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     cursor: pointer;
     transition: 0.5s;
     /*position: relative;*/
@@ -369,8 +375,8 @@ body{
     background: var(--White);
     color: var(--blueCeleste);
 }
-.AbautUs .AbautUs-title{
-    width: 50%;
+.AbautUs-title{
+    /*width: 50%;*/
     margin:auto;
     text-align: center;
     border: solid var(--blue);
@@ -392,17 +398,17 @@ body{
 .AbautUs .box-AbautUs{
     width: 90%;
     margin: 80px auto;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 .AbautUs .box-AbautUs .card-AbautUs{
     width: 45%;
     margin: 20px;
 }
 .AbautUs .box-AbautUs .card-AbautUs .card-img{
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
     margin-bottom: 30px;
 }
 .AbautUs .box-AbautUs .card-AbautUs .card-img img{
@@ -445,7 +451,7 @@ body{
     .AbautUs .box-AbautUs .card-AbautUs{width: 100%;}
     .AbautUs .box-AbautUs .card-AbautUs .AbautUs-text h4{font-size: 25px;}
     .AbautUs .box-AbautUs .card-AbautUs .AbautUs-text p{font-size: 17px; line-height: 35px;}
-    .AbautUs-info{display: block; position: relative; left: 100px;}
+    /*.AbautUs-info{display: block; position: relative; left: 100px;}*/
 }
 
 /**Skills**/
@@ -454,50 +460,44 @@ body{
     /*width: 100%;*/
     /*margin-top: 120px;*/
     background: #066892;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
 }
-.Skills .Skills-title{
-    width: 50%;
+.Skills-title{
+    /*width: 50%;*/
     margin:auto;
-    top: 100px;
     text-align: center;
     border: solid 5px var(--White);
     padding: 20px;
 }
 
-.Skills .Skills-title h2{
+.Skills-title h2{
     font-size: 50px;
     font-weight: normal;
     color: var(--White);
     margin-bottom: 10px;
 }
-.Skills .Skills-title hr{
+.Skills-title hr{
     width: 60%;
     height: 6px;
     margin:auto;
     background: var(--White);
     border: none;
 }
-.Skills .box-Skills{
+ .box-Skills{
     width: 90%;
     margin: 80px auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  
 }
-.Skills .box-Skills .card-Skills{
+ .card-Skills{
     width: 45%;
     margin: 20px;
 }
-.Skills .box-Skills .card-Skills .card-img{
-    display: flex;
-    justify-content: center;
+.card-img{
     margin-bottom: 30px;
 }
 .Skills .box-Skills .card-Skills .card-img img{
-    /*width: 150px;*/
+
     height: 150px;
-    /*border-radius: 50%;*/
     object-fit: cover;
     cursor: pointer;
 }
