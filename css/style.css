@@ -550,9 +550,8 @@ body{
 /** Footer **/
 .footer{
     position: relative;
-    /*width: 100%;*/
-    /*height: 100%;*/
-    background: var(--footer);
+    width: 100%;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -561,9 +560,36 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    /*width: 100%;*/
-    /*height: 100%;*/
-    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    background: var(--footer);
+}
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram,
+.fa-blog{
+    position: relative;
+    top: -20px;
+    font-size: 26px;
+    color: var(--White);
+    margin: 10px;
+    cursor: pointer;
+}
+.direction,
+.contact {
+    color: var(--White);
+}
+.direction p{
+    font-size: 12px;
+}
+.conte li {
+    list-style: none;
+    cursor: pointer;    
+}
+.conte a{
+    color: var(--White);
+    text-decoration: none;
+    cursor: pointer;
 }
 .footer .ejeZfooter{
     position: relative;
@@ -604,9 +630,6 @@ body{
     width: 100%;
     height: 70px;
     background:rgba(0,0,0,0.8);
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     border-top: 2px solid #fff;
 }
 .footer .footer-text p{
@@ -615,10 +638,83 @@ body{
     color: #fff;
 }
 
-@media only screen and (max-width:900px){
-    .footer .formulario-content{width: 85%; padding:20px;}
-}
 @media only screen and (max-width:590px){
-    .footer .formulario-content{width: 95%; padding:20px;}
+
+    .footer .footer-text{width: 100%; padding: 0px 30px;}
+    .footer .footer-text p{font-size: 17px;}
+}
+
+/*Style Careers and Courses*/
+.options-title{
+    background: #8080804f;
+    height: 50%;
+    padding: 28px 100px 14px;
+}
+.bars-options{
+    border: 1px #8080804f solid;
+    border-radius: 50px;
+    padding: 10px;
+}
+.bars-options  ul{display: flex;}
+.bars-options ul li{list-style: none;}
+.bars-options ul li a{
+     text-decoration: none;
+     margin: 0px 10px;
+     padding:8px;
+     color: var(--black);
+     /*border-radius: 24px;*/
+     transition: 0.3s;
+     font-size: 20px;
+}
+.bars-options ul li a:hover{
+    background: none;
+    border-bottom: solid 3px var(--blueCeleste);
+}
+.bars-options ul li a.active2{
+    background: none;
+    border-bottom: solid 3px var(--blueCeleste);
+}
+
+.options-card{
+    margin-top: 10%;
+}
+.card{
+    border: 1px #808080b9 solid;
+    margin-inline: 20px;
+    margin-top: 20px;
+}
+.card .card-img{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+.card .card-img img{
+    width: 315px;
+}
+.card .card-img img:hover{
+    transition: transform ease 0.3s;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.border-img{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,66,253,0.06484592127866773) 99%);
+    position: relative;
+    z-index: 1;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
+.card .card-title{
+    height: 75px;
+    text-align: center;
+}  
+.card .card-title h1{
+    height: 75px;
+    margin: 0 0 6px 0;
+    font-size: 20px;
+    font-weight: 200;
+
+} 
