@@ -779,3 +779,38 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*page schedule*/
+.schedule-title{
+    text-align: center;
+    font-size: 20px;
+    color: #252525b9;
+}
+.horario-titulo h4{
+    color: #252525b9;
+}
+.horario-tipo{
+    text-align: center;
+}
+.horarios-block{
+    padding: 15px;
+    border-radius: 10px;
+    background:#005073;
+    color: var(--White);
+    cursor: pointer;
+}
+.horarios-block .active{
+    color: var(--blueCeleste);
+}
+.description-module{
+    text-align: center;
+    font-size: 20px;
+    color: #252525b9;
+    display: none;
+}
+.description-module .active{
+    text-align: center;
+    font-size: 20px;
+    color: #252525b9;
+    display: block;
+}

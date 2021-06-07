@@ -90,3 +90,12 @@ abajo.addEventListener('click', () => {
   document.documentElement.scrollTop = 600;
   
 });
+
+/* module active */
+var btnModule = document.getElementById('horarios-block'),
+    barModule = document.getElementById('description-module');
+
+btnModule.addEventListener('click', function(){
+  btnModule.classList.toggle('active');
+  barModule.classList.toggle('active');
+});
