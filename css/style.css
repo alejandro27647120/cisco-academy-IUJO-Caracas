@@ -114,7 +114,7 @@ section:nth-of-type(even){
     border-radius: 25px;
 }
 .titel-bg-1{
-    color : #39393b;
+    color : #fff    ;
 }
 .btn-custom{
     background-color: #07b6e8;
