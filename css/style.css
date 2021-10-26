@@ -117,8 +117,40 @@ section:nth-of-type(even){
     color : #fff    ;
 }
 .btn-custom{
-    background-color: #07b6e8;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    color: #58585b;
     border-radius: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 35px;
+    font-weight: normal;
+    line-height: 2rem;
+    height: 40px;
+    min-width: 0;
+    max-width: 300px;
+    overflow: visible;
+}
+.btn--success{
+    background-color: #6abf4b;
+    text-decoration: none;
+    color: #58585b;
+    border-radius: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+    font-weight: normal;
+    line-height: 2rem;
+    height: 40px;
+    min-width: 0;
+    max-width: 300px;
+    overflow: visible
 }
 .footer-bg{
     background-color: #0e274c;
@@ -165,6 +197,9 @@ section:nth-of-type(even){
     color: #180000;
 }
 
+.border-bg{
+    background: #005073;
+}
 
 /*
 * card de los cursos 
@@ -179,12 +214,11 @@ section:nth-of-type(even){
     width: 100%;
 }
 .img-back{
-    background-position: center center;
-    background-size: cover;
-    padding-top: 125px;
-    min-height: 400px;
-    height: 100%;
-    border-radius: 0, 0, 0, 20px;
+    width: 50%;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .views-field-nothing {
     border: 1px solid gray;
