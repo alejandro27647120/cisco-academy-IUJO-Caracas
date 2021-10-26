@@ -257,4 +257,16 @@ section:nth-of-type(even){
 
 .space{
     padding: 20px 0;
- }
+}
+.course-icon {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+}
+.field-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+.field-items {
+    float: left;
+}
