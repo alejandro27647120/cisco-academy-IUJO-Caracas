@@ -11,6 +11,8 @@ html{
 }
 body{
     background: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
     /*overflow-x: hidden;*/
 }
 .bg-navbar{
@@ -118,8 +120,6 @@ section:nth-of-type(even){
 }
 .btn-custom{
     background-color: #f5f5f5;
-    text-decoration: none;
-    color: #58585b;
     border-radius: 5px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -127,23 +127,45 @@ section:nth-of-type(even){
     text-align: center;
     vertical-align: middle;
     padding: 0 25px;
-    font-weight: normal;
     line-height: 2rem;
     height: 40px;
     min-width: 0;
     max-width: 300px;
     overflow: visible;
 }
-.btn--success{
-    background-color: #6abf4b;
+ .btn-custom a{
+    font-weight: normal;
     text-decoration: none;
     color: #58585b;
-    border-radius: 25px;
+ }
+
+.btn--success{
+    background-color: #6abf4b;
+    
+    border-radius: 5px;
     text-overflow: ellipsis;
     white-space: nowrap;
     border-width: 1px;
     text-align: center;
     vertical-align: middle;
+    height: 40px;
+    min-width: 0;
+    max-width: 300px;
+    overflow: visible
+}
+.btn--success a{
+    text-decoration: none;
+    color: #58585b;
+    font-weight: normal;
+    line-height: 2rem;
+}
+.btn--primary{
+    background-color: #025e80;;
+   
+    border-radius: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-width: 1px;
     /*padding: 15px;*/
     font-weight: normal;
     line-height: 2rem;
@@ -152,23 +174,9 @@ section:nth-of-type(even){
     max-width: 300px;
     overflow: visible
 }
-.btn--primary{
-    background-color: #025e80;;
+.btn--primary a{
     text-decoration: none;
     color: #f5f5f5;
-    border-radius: 25px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    border-width: 1px;
-    text-align: center;
-    vertical-align: middle;
-    /*padding: 15px;*/
-    font-weight: normal;
-    line-height: 2rem;
-    height: 40px;
-    min-width: 0;
-    max-width: 300px;
-    overflow: visible
 }
 .footer-bg{
     background-color: #0e274c;
