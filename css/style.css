@@ -139,20 +139,56 @@ section:nth-of-type(even){
     color: #58585b;
  }
 
-.btn--success{
+
+}
+
+a.animated-button.btnIndexGreen {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #F7CA18;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    0s;
+}
+a.animated-button.btnIndexGreen:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: nthree;
+}
+a.animated-button.btnIndexGreen:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.btnIndexGreen:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #F7CA18;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+/* .btn--success{
     background-color: #6abf4b;
-    
     border-radius: 5px;
+    border: solid 1px #6abf4b ;
     text-overflow: ellipsis;
     white-space: nowrap;
     border-width: 1px;
     text-align: center;
     vertical-align: middle;
-    height: 40px;
+    height: 50px;
     min-width: 0;
     max-width: 300px;
     overflow: visible
-}
+} */
 .btn--success a{
     text-decoration: none;
     color: #58585b;
